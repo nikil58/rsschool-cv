@@ -1,3 +1,3 @@
 https://nikil58.github.io/rsschool-cv/cv
 
-https://nikil58.github.io/rsschool-cv/index
+https://nikil58.github.io/rsschool-cv/
