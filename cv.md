@@ -10,3 +10,20 @@
     * Java (now in procces)
     * Django (junior)
     * Git (junior)
+5. My code:
+```python
+if (j==2):
+    answer +="*" + str(result[i][j])+"*" + "\n" #Doing *bold* font-style in MarkDown
+elif (j==3):
+    classes=str(result[i][j]).split(", ") #Split line with classes
+    place=str(result[i][j+1]).split("; ") #Split line with place
+    for k in range(len(place)):
+        classes[k] += " ("+ place[k] + ")" #Connect stings
+        answer += classes[k] + "\n"
+answer+="\n"
+```
+6. 
+7. Education:
+    * St. Petersburg Electrotechnical University "LETI" (2nd year student)
+    * JavaScript Course. RS School 2021Q1
+8. English level: B2
