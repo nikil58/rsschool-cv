@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>My cv</title>
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <ol>
-            <li>Nikita Nikolaev</li>
-            <li>Contacts:
+        <header>
+            <img class="My_Photo" src="img/my_photo.jpg", alt="My_photo", height="720px", width="480px">
+            <h1>Nikita Nikolaev</h1>
+        </header>
+        <main> 
+            <section class="Contacts">
+                <h4>Contacts:</h4>
                 <ul>
                     <li>e-mail: titata1@mail.ru</li>
                     <li>vk: <a href="https://vk.com/nikil588">https://vk.com/nikil588</a></li>
                     <li>Phone: +7 952 42 23 </li>
-                </ul>
-            </li>
-            <li>2nd year student of the St. Petersburg Electrotechnical University "LETI". No work experience. I have a great desire to become a programmer and work in the IT field.  Perfectionist, so I study everything thoroughly.</li>
-            <li>My knowledge:</li>
+                </ul> 
+            </section>
+            <section class="About">
+            <h4>About me:</h4>
+                <p> 2nd year student of the St. Petersburg Electrotechnical University "LETI". </p>
+                <p> No work experience. I have a great desire to become a programmer and work in the IT field.   </p>
+                <p> Perfectionist, so I study everything thoroughly.</p> <br>
+            </section>
+            <section class="Knowledge">
+                <h4> My knowledge: </h4>
                 <ul> 
                     <li>С and C++</li>
                     <li>Python</li>
-                    <li>Java (now in procces)</li>
+                    <li>Java (now in process)</li>
                     <li>Django (junior)</li>
                     <li>Git (junior)</li>
-                </ul>
-            <li>My code: <pre> 
+                </ul>  
+            </section>
+            <section class="Code">
+              <h4>Example of my code:</h4>
+              <pre> 
                 if (j==2):
                     answer +="*" + str(result[i][j])+"*" + "\n" #Doing *bold* font-style in MarkDown
                 elif (j==3):
@@ -32,15 +47,19 @@
                         classes[k] += " ("+ place[k] + ")" #Connect stings
                         answer += classes[k] + "\n"
                 answer+="\n"
-                </pre></li>
-            <li></li>
-            <li>Education:
+                </pre> 
+            </section>
+            <section class="Education">
+              <h4>Education:</h4>
                 <ul>
                     <li>St. Petersburg Electrotechnical University "LETI" (2nd year student)</li>
                     <li>JavaScript Course. RS School 2021Q1</li>
                 </ul>
-            </li>
-            <li>English level: B2</li>
-        </ol>
+            </section> 
+            <section class="English">
+                <h4>My English level is B2</h4>
+            
+            </section>
+           </main> 
     </body>
 </html>
