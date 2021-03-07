@@ -1,0 +1,80 @@
+pre {
+    background-color:rgba(78, 78, 78, 0.658);
+    width: 1300px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(32, 62, 107);
+    color:beige;
+    font-size: 20px;
+}
+
+a{
+    color:beige;
+}
+a:visited{
+    color:darkgrey;
+}
+a:active{
+    color:blueviolet;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+}
+
+.My_Photo{
+    vertical-align: top;
+    border-radius: 30%;
+    box-shadow: 7px 1px 7px grey;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Knowledge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.About p{
+    margin: 2px;
+}
+
+h4{
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
